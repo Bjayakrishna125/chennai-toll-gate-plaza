@@ -1,4 +1,7 @@
-#include <stdio.h> #include <conio.h> #include <math.h> int main()
+#include <stdio.h> 
+#include <conio.h> 
+#include <math.h> 
+int main()
 {
 int choice, vehino; int r;
 printf("########################################################################################################################\n");
@@ -13,11 +16,15 @@ printf("4.\t\t\tCONTAINERS          rs.150                    Rs.120            
 printf("####################################################################################################### #################\n\n");
 printf("\nENTER VEHICLE NUMBER: "); 
 scanf("%d",&vehino);
- printf("\nSELECT YOUR CHOICE\n"); printf("1.SINGLE TRIP"); printf("\n2.RETURN WITHIN 24HOURS"); printf("\n3.MONTHLY PASS");
-printf("\n ENTER YOUR CHOICE:"); scanf("%d",&choice);
+printf("\nSELECT YOUR CHOICE\n"); printf("1.SINGLE TRIP"); 
+printf("\n2.RETURN WITHIN 24HOURS"); 
+printf("\n3.MONTHLY PASS");
+printf("\n ENTER YOUR CHOICE:"); 
+scanf("%d",&choice);
 switch(choice) {
 case 1:
-printf("ENTER VECHILE TYPE : "); scanf("%d",&r);
+printf("ENTER VECHILE TYPE : "); 
+scanf("%d",&r);
 if(r==1)
 {
 printf("######## WELCOME TO CHENNAI TOLL PLAZA ##########"); 
@@ -97,8 +104,10 @@ printf("######## WELCOME TO CHENNAI TOLL PLAZA ##########"); printf("\n####### Y
 printf("\n YOUR VEHICLE NUMBER %d TAKEN MONTLY PASS",vehino); printf("\n HAVE A SAFE JOURNEY");
 }
 
-if(r==4) {
+if(r==4) 
+{
 printf("######## WELCOME TO CHENNAI TOLL PLAZA ##########"); printf("\n####### YOUR BILL #######");
 printf("\n YOUR VEHICLE NUMBER %d TAKEN MONTLY PASS",vehino); printf("\n HAVE A SAFE JOURNEY");
 } 
-getch();}
+getch();
+}
